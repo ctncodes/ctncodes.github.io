@@ -1,5 +1,5 @@
 
-# ctncodes.github.io
+# Chi Thien Nguyen
 
 ### I am an artist. This is my portfolio site.
 
