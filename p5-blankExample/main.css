@@ -1,18 +1,37 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: 30px auto;
+  max-width: 60%;
   font-family: "Helvetica", "Arial", sans-serif;
   line-height: 1.5;
+  padding: 30px 20px;
   text-align: center;
 }
 
-canvas {
-  margin: auto;
+h1 {
+  padding: 20px 0px 10px 0px;
+}
 
-  /* uncomment lines below if you want your canvas to cover the whole page
-  you will also have to create canvas to the window dimensions
-  in your p5 sketch, use: createCanvas(windowWidth, windowHeight); */
-  /* top: 0;
-  left: 0;
-  position: absolute; */
+/* This changes color and removes default underline in links  */
+
+a {
+color: #69CBBB;
+text-decoration: none;
+}
+
+/* Centers images */
+
+img {
+  display: block;
+  margin: 0px auto;
+  width: 100%;
+}
+
+/* When you put a period in front of a CSS declaration, it indicates you are
+creating a new class. We can apply this to div elements to create different
+portfolio entries */
+
+.portfolio-item {
+  margin-top: 60px;
+  padding: 40px;
+  background-color: #f7f7f7;
 }
