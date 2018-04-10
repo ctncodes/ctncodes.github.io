@@ -6,7 +6,7 @@ var seesawPosition = 0;
 function setup() {
   createCanvas(screen.width, screen.height);
   background(153,245,255);
-  for (var i = 0; i < 100; i++) {
+  for (var i = 0; i < 100; i++) { 
     onSeesaw[i] = false;
   }
 }

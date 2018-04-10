@@ -6,7 +6,7 @@ function preload() {
   candy = loadImage('assets/Candy of all sorts.png');
 }
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(500, 500); 
   background(200);
 }
 function draw() {
