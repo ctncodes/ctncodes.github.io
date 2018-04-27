@@ -15,7 +15,7 @@ function worldView(xLoc, yLoc, words, bG, idx) {
   var boxHeight = 40;
   if (xLoc <= mousePressedX && mousePressedX <= (xLoc + boxWidth) &&
       (yLoc <= mousePressedY && mousePressedY <= (yLoc + boxHeight) && onSeesaw[idx] == false ||
-       yLoc-250 <= mousePressedY && mousePressedY <= (yLoc-250 + boxHeight) && onSeesaw[idx] == true) &&
+       yLoc-290 <= mousePressedY && mousePressedY <= (yLoc-290 + boxHeight) && onSeesaw[idx] == true) &&
       pressed == true) {
     pressed = false;
     if ('optimism' == words) {
