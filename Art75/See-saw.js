@@ -86,12 +86,12 @@ function draw() {
      (screen.height)/2 - 20,
       800, 20);
   }
-  worldView(927, (screen.height)/2 + 150, "optimism", 'blue', 0);
-  worldView(287, (screen.height)/2 + 150, "pessimism", 'red', 1);
-  worldView(927, (screen.height)/2 + 190, "optimism", 'blue', 2);
-  worldView(287, (screen.height)/2 + 190, "pessimism", 'red', 3);
-  worldView(927, (screen.height)/2 + 230, "optimism", 'blue', 4);
-  worldView(287, (screen.height)/2 + 230, "pessimism", 'red', 5);
+  worldView(926, (screen.height)/2 + 150, "optimism", 'blue', 0);
+  worldView(286, (screen.height)/2 + 150, "pessimism", 'red', 1);
+  worldView(926, (screen.height)/2 + 190, "optimism", 'blue', 2);
+  worldView(286, (screen.height)/2 + 190, "pessimism", 'red', 3);
+  worldView(926, (screen.height)/2 + 230, "optimism", 'blue', 4);
+  worldView(286, (screen.height)/2 + 230, "pessimism", 'red', 5);
 }
 function mousePressed() {
   mousePressedX = mouseX;
