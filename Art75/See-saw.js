@@ -87,11 +87,11 @@ function draw() {
       800, 20);
   }
   worldView(920, (screen.height)/2 + 150, "optimism", 'blue', 0);
-  worldView(288, (screen.height)/2 + 150, "pessimism", 'red', 1);
+  worldView(284, (screen.height)/2 + 150, "pessimism", 'red', 1);
   worldView(920, (screen.height)/2 + 190, "optimism", 'blue', 2);
-  worldView(288, (screen.height)/2 + 190, "pessimism", 'red', 3);
+  worldView(284, (screen.height)/2 + 190, "pessimism", 'red', 3);
   worldView(920, (screen.height)/2 + 230, "optimism", 'blue', 4);
-  worldView(288, (screen.height)/2 + 230, "pessimism", 'red', 5);
+  worldView(284, (screen.height)/2 + 230, "pessimism", 'red', 5);
 }
 function mousePressed() {
   mousePressedX = mouseX;
